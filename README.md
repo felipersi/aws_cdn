@@ -1,2 +1,2 @@
-# cdn_gcp
-Repositório para criar servidores no GPC 
+# AWS_gcp
+Repositório para criar servidores no AWS 
