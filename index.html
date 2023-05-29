@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Minha Página Inicial</title>
+</head>
+<body>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+function longLoop() {
+  var startTime = new Date().getTime();
+  var endTime;
+  var elapsedTime;
+
+  for (var i = 0; i < 1000000000; i++) {
+    // Loop vazio - não faz nada
+  }
+
+  endTime = new Date().getTime();
+  elapsedTime = endTime - startTime;
+
+  console.log("Tempo de execução: " + elapsedTime + " ms");
+}
+
+longLoop();
+
+});
+</script>
+</body>
+</html>
